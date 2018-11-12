@@ -20,12 +20,12 @@ Fetch an user API token from pagerduty.com.
 ### Setup
 
 ```
-$ brew install python
-$ brew install pip
-$ git clone https://github.com/martindstone/mimpact.git
+$ brew install python3                                   # install python3 if you don't have it already
+$ git clone https://github.com/martindstone/mimpact.git  # get this code
 $ cd mimpact
-$ python3 -m venv venv
-$ . venv/bin/activate
+$ python3 -m venv venv                                   # set up a virtual environment to run python3 by default
+$ . venv/bin/activate                                    # activate the virtual environment
+$ pip install -r requirements.txt                        # install all the dependencies
 ```
 
 ### Things you will want to change in the script file (impact.py):
